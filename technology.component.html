@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+    <div *ngFor="let i of technology_news" class="col-xxl-3">
+        <div class="card" style="width: 18rem; background-color:lightgrey; margin-top: 5px;margin-bottom: 5px;">
+            <img src="{{i.urlToImage}}" alt="Img" height="150px" width="100%">
+            <h4>{{i.title}}</h4>
+            <p>{{i.description}}</p>
+            <a href="{{i.url}}" style="text-align : end;">Read more</a>
+          </div>
+        </div>
+        </div>
+    </div>
+    
+    
+    
